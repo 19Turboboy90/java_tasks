@@ -2,6 +2,11 @@ package ru.zharinov.tasks.basic_exercises.task_02;
 
 /*
 Напишите программу на Java для вывода суммы двух чисел.
+
+Тестовые данные:
+74 + 36
+Ожидаемый результат :
+110
  */
 public class Main {
     public static void main(String[] args) {

@@ -1,6 +1,10 @@
 package ru.zharinov.tasks.basic_exercises.task_01;
 /*
 Напишите программу на Java, которая напечатает «Hello» на экране, а затем напечатайте свое имя в отдельной строке.
+
+Ожидаемый результат :
+Привет
+Александра Абрамова
  */
 public class Main {
     public static void main(String[] args) {

@@ -2,6 +2,11 @@ package ru.zharinov.tasks.basic_exercises.task_03;
 
 /*
 Напишите программу на Java, чтобы разделить два числа и напечатать на экране.
+
+Тестовые данные:
+50/3
+Ожидаемый результат :
+16
  */
 public class Main {
     public static void main(String[] args) {
