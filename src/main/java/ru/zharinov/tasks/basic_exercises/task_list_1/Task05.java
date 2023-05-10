@@ -1,4 +1,4 @@
-package ru.zharinov.tasks.basic_exercises.task_05;
+package ru.zharinov.tasks.basic_exercises.task_list_1;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
 Ожидаемый результат :
 25 х 5 = 125
  */
-public class Main {
+public class Task05 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         System.out.println("enter the first number: ");

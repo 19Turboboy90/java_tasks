@@ -1,11 +1,11 @@
-package ru.zharinov.tasks.basic_exercises.task_12;
+package ru.zharinov.tasks.basic_exercises.task_list_1;
 
 import java.util.Scanner;
 
 /*
 Напишите программу на Java, которая принимает три числа в качестве входных данных для вычисления и печати среднего числа.
  */
-public class Main {
+public class Task12 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         System.out.print("enter the first number: ");

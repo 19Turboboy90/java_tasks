@@ -1,4 +1,4 @@
-package ru.zharinov.tasks.basic_exercises.task_11;
+package ru.zharinov.tasks.basic_exercises.task_list_1;
 
 /*
 Напишите Java-программу для печати области и периметра круга.
@@ -9,7 +9,7 @@ package ru.zharinov.tasks.basic_exercises.task_11;
 Периметр = 47.12388980384689
 Площадь = 176.71458676442586
  */
-public class Main {
+public class Task11 {
     public static void main(String[] args) {
         double radius = 7.5;
         double pi = Math.PI;

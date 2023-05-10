@@ -1,4 +1,4 @@
-package ru.zharinov.tasks.basic_exercises.task_04;
+package ru.zharinov.tasks.basic_exercises.task_list_1;
 
 /*
 Напишите Java-программу для печати результата следующих операций.
@@ -14,7 +14,7 @@ package ru.zharinov.tasks.basic_exercises.task_04;
 19
 13
  */
-public class Main {
+public class Task04 {
     public static void main(String[] args) {
         int result1 = -5 + 8 * 6;
         int result2 = (55 + 9) % 9;

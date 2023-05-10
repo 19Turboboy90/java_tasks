@@ -1,4 +1,4 @@
-package ru.zharinov.tasks.basic_exercises.task_14;
+package ru.zharinov.tasks.basic_exercises.task_list_1;
 
 /*
 Напишите Java-программу для печати американского флага на экране.
@@ -21,7 +21,7 @@ package ru.zharinov.tasks.basic_exercises.task_14;
 ==============================================
 ==============================================
  */
-public class Main {
+public class Task14 {
     public static void main(String[] args) {
         System.out.println("* * * * * * ==================================");
         System.out.println(" * * * * *  ==================================");

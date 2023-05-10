@@ -1,4 +1,4 @@
-package ru.zharinov.tasks.basic_exercises.task_07;
+package ru.zharinov.tasks.basic_exercises.task_list_1;
 
 import java.util.Scanner;
 
@@ -14,7 +14,7 @@ import java.util.Scanner;
 ...
 8 х 10 = 80
  */
-public class Main {
+public class Task07 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         System.out.print("Enter the number: ");

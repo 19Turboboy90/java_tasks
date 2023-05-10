@@ -1,4 +1,4 @@
-package ru.zharinov.tasks.basic_exercises.task_08;
+package ru.zharinov.tasks.basic_exercises.task_list_1;
 
 /*
 Напишите программу на Java для отображения следующего шаблона.
@@ -8,7 +8,7 @@ package ru.zharinov.tasks.basic_exercises.task_08;
 JJ ааааа В.В. ааааа
  Джей Джей Ва
  */
-public class Main {
+public class Task08 {
     public static void main(String[] args) {
         System.out.println(" J avva J aavvaa\n" +
                 "JJ ааааа В.В. ааааа\n" +

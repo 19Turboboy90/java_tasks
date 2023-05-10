@@ -1,4 +1,4 @@
-package ru.zharinov.tasks.basic_exercises.task_13;
+package ru.zharinov.tasks.basic_exercises.task_list_1;
 
 /*
 Напишите Java-программу для печати площади и периметра прямоугольника. Перейти к редактору
@@ -9,7 +9,7 @@ package ru.zharinov.tasks.basic_exercises.task_13;
 Площадь 5,6 * 8,5 = 47,60
 Периметр 2 * (5,6 + 8,5) = 28,20
  */
-public class Main {
+public class Task13 {
     public static void main(String[] args) {
         float height = 8.5f;
         float width = 5.6f;

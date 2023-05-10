@@ -1,4 +1,4 @@
-package ru.zharinov.tasks.basic_exercises.task_03;
+package ru.zharinov.tasks.basic_exercises.task_list_1;
 
 /*
 Напишите программу на Java, чтобы разделить два числа и напечатать на экране.
@@ -8,7 +8,7 @@ package ru.zharinov.tasks.basic_exercises.task_03;
 Ожидаемый результат :
 16
  */
-public class Main {
+public class Task03 {
     public static void main(String[] args) {
         int number = 50;
         int number2 = 3;

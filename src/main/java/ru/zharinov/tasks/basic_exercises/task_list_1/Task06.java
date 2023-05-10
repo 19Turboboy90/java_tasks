@@ -1,4 +1,4 @@
-package ru.zharinov.tasks.basic_exercises.task_06;
+package ru.zharinov.tasks.basic_exercises.task_list_1;
 
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ import java.util.Scanner;
 125/24 = 5
 125 мод 24 = 5
  */
-public class Main {
+public class Task06 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         System.out.println("enter the first number: ");
