@@ -1,8 +1,6 @@
 package ru.zharinov.tasks.basic_exercises.task_list_4;
 
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 
 /*
 Напишите программу на Java для объединения двух заданных отсортированных массивов целых чисел и
