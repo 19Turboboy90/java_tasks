@@ -8,11 +8,10 @@ import java.util.Scanner;
 /*
 Задан файл с текстом, найти и вывести в консоль все слова, начинающиеся с гласных букв.
  */
-public class Task_1 {
+public class Task01 {
     private static final String VOWELS = "уеоаыяию";
 
     public static void main(String[] args) {
-
         Path path = Path.of("C:\\Users\\Family\\Desktop\\test.txt");
         try (Scanner scanner = new Scanner(path)) {
             while (scanner.hasNext()) {
