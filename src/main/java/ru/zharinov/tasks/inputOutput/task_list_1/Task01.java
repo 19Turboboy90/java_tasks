@@ -1,6 +1,5 @@
 package ru.zharinov.tasks.inputOutput.task_list_1;
 
-
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.Scanner;

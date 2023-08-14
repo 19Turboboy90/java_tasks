@@ -1,6 +1,5 @@
 package ru.zharinov.tasks.inputOutput.task_list_1;
 
-import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -10,7 +9,7 @@ import java.util.stream.Stream;
 
 /*
 Задан файл с java-кодом. Прочитать текст программы из файла и записать
- в другой файл в обратном порядке символы каждой строки
+в другой файл в обратном порядке символы каждой строки
  */
 public class Task05 {
     public static void main(String[] args) {
