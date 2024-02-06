@@ -1,11 +1,7 @@
 package ru.zharinov.tasks.basic_exercises.task_list_5;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
-import java.util.stream.Stream;
 
 /*
 Задание №1
@@ -23,19 +19,11 @@ import java.util.stream.Stream;
 1.	Создайте массив типа float с температурами 30 пациентов (от 32 до 40 градусов).
 2.	Напишите код, который выводит среднюю температуру по больнице и количество здоровых пациентов
 (с температурой от 36,2 до 36,9), а также температуры всех пациентов.
-Вынесите в константы условия задания:
-•	количество пациентов,
-•	минимальная и максимальная температура пациентов,
-•	минимальная и максимальная температура диапазона здоровых пациентов.
 
 Пример
 Температуры пациентов: 36.7 38.9 34.7
 Средняя температура: 36.76
 Количество здоровых: 1
-
-Критерии оценки
-«Зачёт» — в консоль выводится правильная информация о пациентах.
-«Незачёт» — задание не выполнено.
 
 
 Дополнительное задание*
@@ -43,6 +31,7 @@ import java.util.stream.Stream;
 Закрепить навыки работы с массивами, используя двумерный массив.
 Что нужно сделать
 Создайте с помощью циклов двумерный массив строк. При его распечатке в консоли должен выводиться крестик из X:
+
 x     x
  x   x
   x x
@@ -54,16 +43,12 @@ x     x
 
  */
 public class Task_86 {
-    private static final int NUMBER_OF_PATIENTS = 30;
-    private static final float MAX_TEMPERATURE = 40.0f;
-    private static final float MIN_TEMPERATURE = 32.0f;
-
     private static final float MAX_TEMPERATURE_HEALTHIER_PATIENTS = 36.9f;
     private static final float MIN_TEMPERATURE_HEALTHIER_PATIENTS = 36.2f;
 
     public static void main(String[] args) {
-//        task1();
-//        task2();
+        task1();
+        task2();
         task3();
     }
 
