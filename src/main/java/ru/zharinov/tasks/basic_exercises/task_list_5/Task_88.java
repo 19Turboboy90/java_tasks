@@ -3,6 +3,7 @@ package ru.zharinov.tasks.basic_exercises.task_list_5;
 import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeSet;
+import java.util.regex.Pattern;
 
 /*
 1.	Напишите программу, в которой будет храниться перечень адресов электронной почты. Адреса можно добавлять
@@ -44,8 +45,8 @@ public class Task_88 {
                     while (again) {
                         System.out.print("Введите email: ");
                         String email = console.nextLine();
-                        String regex = ".+@(yandex|mail|gmail)\\.(ru|com)";
-                        if (email.matches(".+@(yandex|mail|gmail)\\.(ru|com)")) {
+                        Pattern pattern = Pattern.compile("^[-\\w.]+@([A-z0-9][-A-z0-9]+\\.)+[A-z]{2,4}$");
+                        if (email.matches(pattern.pattern())) {
                             setEmail.add(email);
                             System.out.println("Email добавлен.\n");
                             again = false;
