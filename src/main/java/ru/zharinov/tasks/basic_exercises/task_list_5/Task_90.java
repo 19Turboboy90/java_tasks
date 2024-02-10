@@ -48,45 +48,15 @@ public class Task_90 {
         while (true) {
             System.out.println("Введите номер машины в формате А111АА111");
             String carNumber = console.nextLine();
-            linSearch(carNumber);
-            binarySearch(carNumber);
-            searchToHashSet(carNumber);
-            searchToTreeSet(carNumber);
+            System.out.println("Поиск перебором: номер " + search(carNumber, listNumbers));
+            System.out.println("Поиск в TreeSet: номер " + search(carNumber, treeSetNumbers));
+            System.out.println("Поиск в HashSet: номер " + search(carNumber, hashSetMNumbers));
+            System.out.println("Бинарный поиск: номер " + binarySearch(carNumber));
         }
 
     }
 
-    private static void searchToHashSet(String carNumber) {
-        String result = "";
-        var before = System.nanoTime();
-        for (String listNumber : hashSetMNumbers) {
-            if (carNumber.equals(listNumber)) {
-                result = " найден, ";
-                break;
-            } else {
-                result = " не найден, ";
-            }
-        }
-        var after = System.nanoTime();
-        System.out.println("Поиск в HashSet: : номер " + carNumber + result + "поиск занял " + (after - before) + "нс");
-    }
-
-    private static void searchToTreeSet(String carNumber) {
-        String result = "";
-        var before = System.nanoTime();
-        for (String listNumber : treeSetNumbers) {
-            if (carNumber.equals(listNumber)) {
-                result = " найден, ";
-                break;
-            } else {
-                result = " не найден, ";
-            }
-        }
-        var after = System.nanoTime();
-        System.out.println("Поиск в TreeSet: номер " + carNumber + result + "поиск занял " + (after - before) + "нс");
-    }
-
-    private static void binarySearch(String carNumber) {
+    private static String binarySearch(String carNumber) {
         String result;
         Collections.sort(listNumbers);
         var before = System.nanoTime();
@@ -97,14 +67,15 @@ public class Task_90 {
             result = " не найден, ";
         }
         var after = System.nanoTime();
-        System.out.println("Бинарный поиск:  номер " + carNumber + result + "поиск занял " + (after - before) + "нс");
+        return carNumber + result + "поиск занял " + (after - before) + "нс";
     }
 
-    private static void linSearch(String carNumber) {
+
+    private static String search(String carNumber, Collection<String> collection) {
         String result = "";
         var before = System.nanoTime();
-        for (String listNumber : listNumbers) {
-            if (carNumber.equals(listNumber)) {
+        for (String str : collection) {
+            if (carNumber.equals(str)) {
                 result = " найден, ";
                 break;
             } else {
@@ -112,9 +83,8 @@ public class Task_90 {
             }
         }
         var after = System.nanoTime();
-        System.out.println("Поиск перебором: номер " + carNumber + result + "поиск занял " + (after - before) + "нс");
+        return carNumber + result + "поиск занял " + (after - before) + "нс";
     }
-
 
     //Генерация номера
     private static StringBuilder randomNumber() {
