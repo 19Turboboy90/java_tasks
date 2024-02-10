@@ -1,9 +1,9 @@
 package ru.zharinov.tasks.task_from_course.lecture_1;
 
-import ru.zharinov.tasks.task_from_course.lecture_1.animal.Animal;
-import ru.zharinov.tasks.task_from_course.lecture_1.animal.Dog;
-import ru.zharinov.tasks.task_from_course.lecture_1.animal.HomeCat;
-import ru.zharinov.tasks.task_from_course.lecture_1.animal.Tiger;
+import ru.zharinov.tasks.task_from_course.lecture_1.animals.Animal;
+import ru.zharinov.tasks.task_from_course.lecture_1.animals.Dog;
+import ru.zharinov.tasks.task_from_course.lecture_1.animals.HomeCat;
+import ru.zharinov.tasks.task_from_course.lecture_1.animals.Tiger;
 
 /*
 Практическое задание
@@ -20,16 +20,18 @@ import ru.zharinov.tasks.task_from_course.lecture_1.animal.Tiger;
  */
 public class Main {
     public static void main(String[] args) {
-        Dog dog = new Dog("Sharik", 5);
-        HomeCat homeCat = new HomeCat("Barsik", 3);
-        Tiger tiger = new Tiger("Tigro", 10);
+        Dog dog = new Dog("Шарик", 100, 50);
+        HomeCat homeCat = new HomeCat("Барсик", 50);
+        Tiger tiger = new Tiger("Тигро", 500, 100);
 
-        Animal[] animals = {dog,homeCat,tiger};
+        Animal[] animals = {dog, homeCat, tiger};
         for (Animal animal : animals) {
-            animal.run(600);
-            animal.swim(9);
+            animal.run(100);
+            animal.swim(60);
         }
-
-        dog.amount();
+        System.out.println("Создано всего животных: " + Animal.count);
+        System.out.println("Создано всего собак: " + Dog.count);
+        System.out.println("Создано всего домашних котов: " + HomeCat.count);
+        System.out.println("Создано всего тигров: " + Tiger.count);
     }
 }
