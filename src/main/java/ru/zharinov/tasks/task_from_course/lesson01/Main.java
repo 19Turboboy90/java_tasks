@@ -1,9 +1,9 @@
-package ru.zharinov.tasks.task_from_course.lecture_1;
+package ru.zharinov.tasks.task_from_course.lesson01;
 
-import ru.zharinov.tasks.task_from_course.lecture_1.animals.Animal;
-import ru.zharinov.tasks.task_from_course.lecture_1.animals.Dog;
-import ru.zharinov.tasks.task_from_course.lecture_1.animals.HomeCat;
-import ru.zharinov.tasks.task_from_course.lecture_1.animals.Tiger;
+import ru.zharinov.tasks.task_from_course.lesson01.animals.Animal;
+import ru.zharinov.tasks.task_from_course.lesson01.animals.Dog;
+import ru.zharinov.tasks.task_from_course.lesson01.animals.HomeCat;
+import ru.zharinov.tasks.task_from_course.lesson01.animals.Tiger;
 
 /*
 Практическое задание

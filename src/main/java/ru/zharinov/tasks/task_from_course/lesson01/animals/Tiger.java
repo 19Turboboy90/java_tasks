@@ -1,4 +1,4 @@
-package ru.zharinov.tasks.task_from_course.lecture_1.animals;
+package ru.zharinov.tasks.task_from_course.lesson01.animals;
 
 public class Tiger extends Animal {
     public static int count;
