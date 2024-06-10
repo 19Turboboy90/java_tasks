@@ -1,5 +1,6 @@
 # https://git-scm.com/docs/gitignore
 .idea
+target
 .gitignore
 *.class
 *iml
