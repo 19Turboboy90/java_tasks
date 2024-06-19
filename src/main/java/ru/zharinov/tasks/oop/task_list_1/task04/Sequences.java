@@ -1,4 +1,4 @@
-package ru.zharinov.tasks.basic_exercises.task_list_5.task_95;
+package ru.zharinov.tasks.oop.task_list_1.task04;
 
 public interface Sequences {
     /**
