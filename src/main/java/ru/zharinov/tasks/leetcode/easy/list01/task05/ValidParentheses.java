@@ -1,4 +1,4 @@
-package ru.zharinov.tasks.leetcode.easy.list01.task;
+package ru.zharinov.tasks.leetcode.easy.list01.task05;
 
 import java.util.Stack;
 
